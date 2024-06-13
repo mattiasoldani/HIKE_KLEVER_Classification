@@ -12,7 +12,7 @@ The repository includes these tools:
 - `classifiers_sklearn` to train ML classifiers on the KLEVER datasets (of limited size) &mdash; in 2023, boosted decision trees were tested.
 - `trained_algorithms` which contains Pickle files with the trained BDTs that were used in 2023, together with some basic performance plots.
 - `mass_classification_sklearn`, a software to be run on [HTCondor](https://htcondor.org/) to perform the ML classification on full-scale datasets.
-- `mass_final_analysis`, a set of analysis tools for the `mass_classification_sklearn` analysis output data.
+- `mass_final_analysis`, a set of analysis tools for the `mass_classification_sklearn` analysis output data, some of which optimised for parallelisation with [Dask](https://www.dask.org/).
 
 Some of the main results of this work can be found e.g. in [this meeting contribution](https://indico.cern.ch/event/1234203/contributions/5560870/).
 
