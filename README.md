@@ -18,6 +18,8 @@ Some of the main results of this work can be found e.g. in [this meeting contrib
 
 Basic dependencies of the Python code and Jupyter notebooks:
 
+[![dask](https://img.shields.io/badge/dask-grey.svg)](https://www.dask.org/)
+[![iminuit](https://img.shields.io/badge/iminuit-grey.svg)](https://scikit-hep.org/iminuit/)
 [![jupyterlab](https://img.shields.io/badge/jupyterlab-grey.svg)](https://jupyterlab.readthedocs.io/en/stable/)
 [![matplotlib](https://img.shields.io/badge/matplotlib-grey.svg)](https://matplotlib.org/)
 [![numpy](https://img.shields.io/badge/numpy-grey.svg)](https://numpy.org/)
