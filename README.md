@@ -15,3 +15,15 @@ The repository includes these tools:
 - `mass_final_analysis`, a set of analysis tools for the `mass_classification_sklearn` analysis output data.
 
 Some of the main results of this work can be found e.g. in [this meeting contribution](https://indico.cern.ch/event/1234203/contributions/5560870/).
+
+Basic dependencies of the Python code and Jupyter notebooks:
+
+[![jupyterlab](https://img.shields.io/badge/jupyterlab-grey.svg)](https://jupyterlab.readthedocs.io/en/stable/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-grey.svg)](https://matplotlib.org/)
+[![numpy](https://img.shields.io/badge/numpy-grey.svg)](https://numpy.org/)
+[![pandas](https://img.shields.io/badge/pandas-grey.svg)](https://pandas.pydata.org/)
+[![pip](https://img.shields.io/badge/pip-grey.svg)](https://pip.pypa.io/en/stable/)
+[![pyspark](https://img.shields.io/badge/pyspark-grey.svg)](https://spark.apache.org/docs/latest/api/python/index.html#)
+[![seaborn](https://img.shields.io/badge/seaborn-grey.svg)](https://seaborn.pydata.org/)
+[![sklearn](https://img.shields.io/badge/sklearn-grey.svg)](https://scikit-learn.org/stable/)
+[![succolib](https://img.shields.io/badge/succolib-grey.svg)](https://github.com/mattiasoldani/succolib)
