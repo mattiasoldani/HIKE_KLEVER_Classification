@@ -1,0 +1,15 @@
+# submit file for HTCondor; runs condor_process.sh; also set run parameters in condor_args.dat (manually) or using condor_write_argfile.py
+
++JobFlavour = "workday"
+
+executable = condor_process.sh
+arguments = $(maindirexec) $(filedataname) $(outpreddataname) $(outhistdataname) $(filecls0name) $(filecls1name)
+
+initialdir = $(maindirexec)
+should_transfer_files = YES
+transfer_output_files = ""
+output = output_info/$(Process).out
+error = output_info/$(Process).err
+log = output_info/$(Process).log
+
+queue maindirexec, filedataname, outpreddataname, outhistdataname, filecls0name, filecls1name from condor_args.dat
